@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "@fontsource/fraunces/latin-600.css";
+@import "@fontsource/fraunces/latin-700.css";
+@import "@fontsource/source-sans-3/latin-400.css";
+@import "@fontsource/source-sans-3/latin-600.css";
+@import "@fontsource/source-sans-3/latin-700.css";
+
+@theme {
+  --color-danube: #1c3d5a;
+  --color-linden: #5b7f3a;
+  --color-paper: #f6f0e4;
+  --color-ink: #1a1814;
+  --color-honey: #d9a441;
+  --font-serif: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-sans: "Source Sans 3", "Source Sans Pro", "Segoe UI", sans-serif;
+  --radius-card: 0.75rem;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.55;
+    min-height: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    line-height: 1.15;
+    font-weight: 600;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  a {
+    color: var(--color-danube);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-danube);
+    outline-offset: 2px;
+  }
+  [id] {
+    scroll-margin-top: 16rem;
+  }
+  ::selection {
+    background: var(--color-honey);
+    color: var(--color-ink);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  .sheet {
+    break-inside: avoid;
+  }
+}

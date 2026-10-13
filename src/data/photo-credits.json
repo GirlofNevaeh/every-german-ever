@@ -1,0 +1,298 @@
+[
+  {
+    "id": "neuschwanstein",
+    "file": "/photos/neuschwanstein.jpg",
+    "title": "Neuschwanstein Castle from Marienbrücke, 2011 May.jpg",
+    "photographer": "Ximonic , Simo Räsänen (post-processing) &amp; Tauno Räsänen (photograph)",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_from_Marienbr%C3%BCcke,_2011_May.jpg"
+  },
+  {
+    "id": "sanssouci",
+    "file": "/photos/sanssouci.jpg",
+    "title": "Schloss Sanssouci November 2013.jpg",
+    "photographer": "Arild Vågen",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Schloss_Sanssouci_November_2013.jpg"
+  },
+  {
+    "id": "wartburg",
+    "file": "/photos/wartburg.jpg",
+    "title": "Eisenach Germany Wartburg-Castle-01.jpg",
+    "photographer": "CEphoto, Uwe Aranas",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eisenach_Germany_Wartburg-Castle-01.jpg"
+  },
+  {
+    "id": "heidelberg",
+    "file": "/photos/heidelberg.jpg",
+    "title": "Heidelberg-Schloß.JPG",
+    "photographer": "Pumuckel42 (Reinhard Wolf) at de:Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heidelberg-Schlo%C3%9F.JPG"
+  },
+  {
+    "id": "lorelei",
+    "file": "/photos/lorelei.jpg",
+    "title": "Loreley am Rhein.JPG",
+    "photographer": "Guido Radig",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Loreley_am_Rhein.JPG"
+  },
+  {
+    "id": "black-forest",
+    "file": "/photos/black-forest.jpg",
+    "title": "Landschaft am Feldberg (Schwarzwald) 05.jpg",
+    "photographer": "Stephan Sprinz",
+    "licence": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Landschaft_am_Feldberg_(Schwarzwald)_05.jpg"
+  },
+  {
+    "id": "zugspitze",
+    "file": "/photos/zugspitze.jpg",
+    "title": "Alpen Zugspitze Gipfelkreuz Bayern.jpg",
+    "photographer": "Michael Fiegle",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alpen_Zugspitze_Gipfelkreuz_Bayern.jpg"
+  },
+  {
+    "id": "munich",
+    "file": "/photos/munich.jpg",
+    "title": "Rathaus and Marienplatz from Peterskirche - August 2006.jpg",
+    "photographer": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg"
+  },
+  {
+    "id": "hamburg",
+    "file": "/photos/hamburg.jpg",
+    "title": "Hamburger Hafen-St. Michaelis.jpg",
+    "photographer": "Tobi 87",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hamburger_Hafen-St._Michaelis.jpg"
+  },
+  {
+    "id": "lubeck",
+    "file": "/photos/lubeck.jpg",
+    "title": "Holstentor Stadtseite.jpg",
+    "photographer": "Christian Wolf ( www.c-w-design.de )",
+    "licence": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Holstentor_Stadtseite.jpg"
+  },
+  {
+    "id": "porta-nigra",
+    "file": "/photos/porta-nigra.jpg",
+    "title": "Trier Porta-Nigra-Platz 5.jpg",
+    "photographer": "Palauenc05",
+    "licence": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trier_Porta-Nigra-Platz_5.jpg"
+  },
+  {
+    "id": "wittenberg",
+    "file": "/photos/wittenberg.jpg",
+    "title": "Schlosskirche Wittenberg bei Nacht, 2012.jpg",
+    "photographer": "neufal54",
+    "licence": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Schlosskirche_Wittenberg_bei_Nacht,_2012.jpg"
+  },
+  {
+    "id": "weimar",
+    "file": "/photos/weimar.jpg",
+    "title": "Weimar - 2016-09-22 - Goethe-Schiller-Denkmal (002).jpg",
+    "photographer": "Tsungam",
+    "licence": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Weimar_-_2016-09-22_-_Goethe-Schiller-Denkmal_(002).jpg"
+  },
+  {
+    "id": "nuremberg",
+    "file": "/photos/nuremberg.jpg",
+    "title": "Burg Nürnberg 02.jpg",
+    "photographer": "DALIBRI",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Burg_N%C3%BCrnberg_02.jpg"
+  },
+  {
+    "id": "wadden",
+    "file": "/photos/wadden.jpg",
+    "title": "13-09-29-nordfriesisches-wattenmeer-RalfR-15.jpg",
+    "photographer": "Ralf Roletschek",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:13-09-29-nordfriesisches-wattenmeer-RalfR-15.jpg"
+  },
+  {
+    "id": "rhine",
+    "file": "/photos/rhine.jpg",
+    "title": "Oberes Mittelrheintal Burg Pfalzgrafenstein 02.jpg",
+    "photographer": "FrDr",
+    "licence": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberes_Mittelrheintal_Burg_Pfalzgrafenstein_02.jpg"
+  },
+  {
+    "id": "pretzel",
+    "file": "/photos/pretzel.jpg",
+    "title": "Pretzel Knot.jpg",
+    "photographer": "Fadkins",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pretzel_Knot.jpg"
+  },
+  {
+    "id": "market",
+    "file": "/photos/market.jpg",
+    "title": "Mueviktualien091962xbw.jpg",
+    "photographer": "Fentriss",
+    "licence": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mueviktualien091962xbw.jpg"
+  },
+  {
+    "id": "danube",
+    "file": "/photos/danube.jpg",
+    "title": "Veste Niederhaus by Pudelek.jpg",
+    "photographer": "Pudelek (Marcin Szala)",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Veste_Niederhaus_by_Pudelek.jpg"
+  },
+  {
+    "id": "forest-path",
+    "file": "/photos/forest-path.jpg",
+    "title": "Naturwaldreservat 06-007 Ruine Reichenbach 2020-02-15 h.JPG",
+    "photographer": "Baummapper",
+    "licence": "CC BY-SA 3.0 de",
+    "source": "https://commons.wikimedia.org/wiki/File:Naturwaldreservat_06-007_Ruine_Reichenbach_2020-02-15_h.JPG"
+  },
+  {
+    "id": "chapel",
+    "file": "/photos/chapel.jpg",
+    "title": "Alte Wallfahrtskapelle Gschnaidt9.jpg",
+    "photographer": "The original uploader was Richard Mayer at German Wikipedia .",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alte_Wallfahrtskapelle_Gschnaidt9.jpg"
+  },
+  {
+    "id": "portrait-luther",
+    "file": "/photos/portrait-luther.jpg",
+    "title": "Luther46c.jpg",
+    "photographer": "Lucas Cranach the Elder",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther,_1529.jpg"
+  },
+  {
+    "id": "portrait-bach",
+    "file": "/photos/portrait-bach.jpg",
+    "title": "Johann Sebastian Bach.jpg",
+    "photographer": "Elias Gottlob Haussmann",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg"
+  },
+  {
+    "id": "portrait-beethoven",
+    "file": "/photos/portrait-beethoven.jpg",
+    "title": "Beethoven.jpg",
+    "photographer": "Joseph Karl Stieler",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+  },
+  {
+    "id": "portrait-goethe",
+    "file": "/photos/portrait-goethe.jpg",
+    "title": "Goethe (Stieler 1828).jpg",
+    "photographer": "Joseph Karl Stieler",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg"
+  },
+  {
+    "id": "portrait-einstein",
+    "file": "/photos/portrait-einstein.jpg",
+    "title": "Albert Einstein Head.jpg",
+    "photographer": "Photograph by Orren Jack Turner , Princeton, N.J. Modified with Photoshop by PM_Poon and later by Dantadd .",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head.jpg"
+  },
+  {
+    "id": "portrait-kant",
+    "file": "/photos/portrait-kant.jpg",
+    "title": "Kant gemaelde 3.jpg",
+    "photographer": "Johann Gottlieb Becker (1720-1782)",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
+  },
+  {
+    "id": "portrait-schiller",
+    "file": "/photos/portrait-schiller.jpg",
+    "title": "Friedrich Schiller by Ludovike Simanowiz.jpg",
+    "photographer": "Ludovike Simanowiz",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Friedrich_Schiller_by_Ludovike_Simanowiz.jpg"
+  },
+  {
+    "id": "portrait-merkel",
+    "file": "/photos/portrait-merkel.jpg",
+    "title": "Angela Merkel (2008).jpg",
+    "photographer": "א (Aleph)",
+    "licence": "CC BY-SA 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_(2008).jpg"
+  },
+  {
+    "id": "cologne-cathedral",
+    "file": "/photos/cologne-cathedral.jpg",
+    "title": "Cologne cathedral west facade 3584.jpg",
+    "photographer": "T.Voekler",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cologne_cathedral_west_facade_3584.jpg"
+  },
+  {
+    "id": "brandenburg-gate",
+    "file": "/photos/brandenburg-gate.jpg",
+    "title": "Brandenburger Tor morgens.jpg",
+    "photographer": "Thomas Wolf , www.foto-tw.de",
+    "licence": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg"
+  },
+  {
+    "id": "reichstag",
+    "file": "/photos/reichstag.jpg",
+    "title": "Reichstag Kuppel von Innenhof.jpg",
+    "photographer": "Photo: Andreas Praefcke",
+    "licence": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reichstag_Kuppel_von_Innenhof.jpg"
+  },
+  {
+    "id": "dresden",
+    "file": "/photos/dresden.jpg",
+    "title": "Frauenkirche-dresden.jpg",
+    "photographer": "Ronny Kreutel - Kausalkette",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Frauenkirche-dresden.jpg"
+  },
+  {
+    "id": "aachen",
+    "file": "/photos/aachen.jpg",
+    "title": "Ceiling Civitas Dei, Entrance of the Cathedral, Aachen, Germany.jpg",
+    "photographer": "Jebulon",
+    "licence": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ceiling_Civitas_Dei,_Entrance_of_the_Cathedral,_Aachen,_Germany.jpg"
+  },
+  {
+    "id": "timber",
+    "file": "/photos/timber.jpg",
+    "title": "Rothenburg BW 4.JPG",
+    "photographer": "Berthold Werner",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Rothenburg_BW_4.JPG"
+  },
+  {
+    "id": "portrait-durer",
+    "file": "/photos/portrait-durer.jpg",
+    "title": "Albrecht Dürer, Selbstbildnis mit 26 Jahren (Prado, Madrid).jpg",
+    "photographer": "Albrecht Dürer",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_Selbstbildnis_mit_26_Jahren_(Prado,_Madrid).jpg"
+  },
+  {
+    "id": "portrait-humboldt",
+    "file": "/photos/portrait-humboldt.jpg",
+    "title": "Alexander von Humboldt by Friedrich Georg Weitsch.jpg",
+    "photographer": "Friedrich Georg Weitsch",
+    "licence": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_von_Humboldt_by_Friedrich_Georg_Weitsch.jpg"
+  }
+]

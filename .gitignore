@@ -1,0 +1,19 @@
+node_modules/
+.node_modules.lock
+dist/
+.output/
+.vercel/
+.nitro/
+.tanstack/
+*.log
+.DS_Store
+screenshots/
+artifacts/
+attachments/
+.env
+.env.*
+!.env.example
+
+# App-builder tooling. Keep the auth flag so a plain Vercel build stays signed-out.
+.grok/*
+!.grok/app-env.json
