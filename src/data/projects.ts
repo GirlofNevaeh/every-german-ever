@@ -7,7 +7,7 @@ const older =
 export const projects: ProjectCard[] = [
   {
     id: "k-i",
-    stage: "Age 5-6",
+    stage: "Age 5-12",
     stageOrder: 0,
     kind: "individual",
     title: "Say a place",
@@ -22,7 +22,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "k-t",
-    stage: "Age 5-6",
+    stage: "Age 5-12",
     stageOrder: 0,
     kind: "team",
     title: "A paper river and a story",
@@ -37,7 +37,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "1-i",
-    stage: "Age 6-7",
+    stage: "Age 5-12",
     stageOrder: 1,
     kind: "individual",
     title: "One person, one sentence",
@@ -53,7 +53,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "1-t",
-    stage: "Age 6-7",
+    stage: "Age 5-12",
     stageOrder: 1,
     kind: "team",
     title: "Four people, four places",
@@ -68,7 +68,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "2-i",
-    stage: "Age 7-8",
+    stage: "Age 5-12",
     stageOrder: 2,
     kind: "individual",
     title: "A state in three sentences",
@@ -83,7 +83,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "2-t",
-    stage: "Age 7-8",
+    stage: "Age 5-12",
     stageOrder: 2,
     kind: "team",
     title: "Five moments in a line",
@@ -98,7 +98,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "3-i",
-    stage: "Age 8-9",
+    stage: "Age 5-12",
     stageOrder: 3,
     kind: "individual",
     title: "Who shares the credit?",
@@ -113,7 +113,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "3-t",
-    stage: "Age 8-9",
+    stage: "Age 5-12",
     stageOrder: 3,
     kind: "team",
     title: "A class map",
@@ -128,7 +128,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "4-i",
-    stage: "Age 9-10",
+    stage: "Age 5-12",
     stageOrder: 4,
     kind: "individual",
     title: "Story or custom?",
@@ -143,7 +143,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "4-t",
-    stage: "Age 9-10",
+    stage: "Age 5-12",
     stageOrder: 4,
     kind: "team",
     title: "Eight fair questions",
@@ -158,7 +158,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "5-i",
-    stage: "Age 10-11",
+    stage: "Age 5-12",
     stageOrder: 5,
     kind: "individual",
     title: "A castle town and a harbour",
@@ -173,7 +173,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "5-t",
-    stage: "Age 10-11",
+    stage: "Age 5-12",
     stageOrder: 5,
     kind: "team",
     title: "One hard time, one fair rule",
@@ -188,7 +188,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "6-i",
-    stage: "Age 11-12",
+    stage: "Age 5-12",
     stageOrder: 6,
     kind: "individual",
     title: "Two places, two names each",
@@ -203,7 +203,7 @@ export const projects: ProjectCard[] = [
   },
   {
     id: "6-t",
-    stage: "Age 11-12",
+    stage: "Age 5-12",
     stageOrder: 6,
     kind: "team",
     title: "A small exhibition",

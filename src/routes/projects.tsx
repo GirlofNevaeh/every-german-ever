@@ -16,7 +16,7 @@ function ProjectsPage() {
   return (
     <main className="mx-auto grid max-w-6xl gap-6 px-4 py-6">
       <h1 className="text-3xl text-danube">Projects</h1>
-      <p>Use facts from this site. Age 5-6 is drawing and speaking.</p>
+      <p>Use facts from this site. Age 5-12. The first projects are drawing and speaking.</p>
       <div className="flex flex-wrap gap-2">
         <Chip active={stage === "all"} onClick={() => setStage("all")} label="All years" />
         {PROJECT_STAGES.map((item) => (
