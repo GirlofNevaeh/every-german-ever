@@ -20,9 +20,9 @@ export function getPhoto(id?: string): PhotoCredit | undefined {
 
 export function cleanCredit(value: string): string {
   return value
-    .replace(/&/g, "&")
-    .replace(/"/g, '"')
-    .replace(/&#039;|'/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;|&apos;/g, "'")
     .replace(/&#(\d+);/g, (_, code: string) => String.fromCharCode(Number(code)))
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")

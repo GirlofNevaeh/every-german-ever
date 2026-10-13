@@ -22,7 +22,7 @@ export function MemorialDrawing() {
         <rect width="320" height="200" className="fill-paper" />
         {slabs.map((height, index) => (
           <rect
-            key={height + index}
+            key={`slab-${index}`}
             x={16 + index * 25}
             y={170 - height}
             width="16"
