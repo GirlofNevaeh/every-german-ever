@@ -1,6 +1,6 @@
 # Every German Ever
 
-A children's history of Germany, built with TanStack Start. The production build uses Nitro's Vercel preset and writes the [Build Output API](https://vercel.com/docs/build-output-api) to `.vercel/output`.
+A history of Germany for young learners, built with TanStack Start. The production build uses Nitro's Vercel preset and writes the [Build Output API](https://vercel.com/docs/build-output-api) to `.vercel/output`.
 
 ## Deploy on Vercel
 

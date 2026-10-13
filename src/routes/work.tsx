@@ -128,7 +128,7 @@ function AnthemSheet() {
   return (
     <article className="sheet grid gap-3 rounded-lg border border-ink/15 p-4">
       <h2 className="text-2xl">The national anthem</h2>
-      <p>Germany sings only the third verse of the Deutschlandlied. This sheet prints that verse only.</p>
+      <p>Germany sings only the third verse of the Deutschlandlied.</p>
       <p>Hoffmann von Fallersleben wrote the words in 1841. Joseph Haydn wrote the tune earlier, for a different song.</p>
       <pre className="font-serif text-lg whitespace-pre-wrap">
         {`Einigkeit und Recht und Freiheit

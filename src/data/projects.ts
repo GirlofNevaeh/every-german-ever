@@ -2,7 +2,7 @@ import type { ProjectCard } from "./types";
 
 const german = "A class may answer in German.";
 const older =
-  "In Berlin and Brandenburg this is still primary school. In the other states it is the start of the next school.";
+  "In Berlin and Brandenburg these ages are still for young learners. In the other states it is the start of the next school.";
 
 export const projects: ProjectCard[] = [
   {

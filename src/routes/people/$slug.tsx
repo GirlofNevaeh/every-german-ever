@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { PersonDrawing } from "@/components/drawings";
-import { hasPhoto, Photo } from "@/components/photo";
+import { CartoonPortrait } from "@/components/cartoon-portrait";
 import { getPerson } from "@/data/people";
 
 export const Route = createFileRoute("/people/$slug")({
@@ -31,11 +30,7 @@ function PersonPage() {
         </Link>
       </p>
       <div className="grid gap-4 sm:grid-cols-[14rem_1fr] sm:items-start">
-        {hasPhoto(person.photoId) && person.photoId ? (
-          <Photo photoId={person.photoId} alt={person.name} className="[&_img]:object-contain [&_img]:bg-paper" />
-        ) : (
-          <PersonDrawing name={person.name} />
-        )}
+        <CartoonPortrait slug={person.slug} name={person.name} />
         <div className="grid gap-2">
           <h1 className="text-3xl text-danube">{person.name}</h1>
           <p className="text-lg">{person.germanName}</p>

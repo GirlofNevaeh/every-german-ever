@@ -1,3 +1,4 @@
+import { CartoonPortrait } from "@/components/cartoon-portrait";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { SearchBox } from "@/components/search-box";
@@ -76,6 +77,9 @@ function PeoplePage() {
       <ul className="grid gap-3 sm:grid-cols-2">
         {shown.map((person) => (
           <li key={person.slug} className="rounded-lg border border-ink/15 p-3">
+            <div className="mb-2 w-24">
+              <CartoonPortrait slug={person.slug} name={person.name} />
+            </div>
             <Link to="/people/$slug" params={{ slug: person.slug }} className="font-serif text-xl no-underline">
               {person.name}
             </Link>

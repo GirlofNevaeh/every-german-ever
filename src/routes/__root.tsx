@@ -15,7 +15,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "A children's history of Germany: people, places, states, beliefs, and a quiz. Deutschland für alle.",
+          "A history of Germany for young learners: people, places, states, beliefs, and a quiz. Deutschland für alle.",
       },
       { name: "theme-color", content: "#1C3D5A" },
     ],
