@@ -1,4 +1,4 @@
-import { createRootRoute, HeadContent, Outlet, Scripts } from "@tanstack/react-router";
+import { createRootRoute, HeadContent, Outlet, Scripts, redirect } from "@tanstack/react-router";
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SiteFrame } from "@/components/site-frame";
@@ -7,6 +7,12 @@ import appCss from "../styles.css?url";
 const APP_NAME = "Every German Ever";
 
 export const Route = createRootRoute({
+  beforeLoad: ({ location }) => {
+    const path = location.pathname.replace(/\/+$/, "") || "/";
+    if (path !== "/") {
+      throw redirect({ to: "/" });
+    }
+  },
   head: () => ({
     meta: [
       { charSet: "utf-8" },
