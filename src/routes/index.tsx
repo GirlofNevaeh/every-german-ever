@@ -10,7 +10,7 @@ function Home() {
     <main className="mx-auto grid max-w-3xl gap-4 px-4 py-10">
       <h1 className="text-3xl text-danube sm:text-4xl">A history of Germany for young learners.</h1>
       <img
-        src="/cartoon-brandenburg-gate.jpg"
+        src="/cartoon-brandenburg-gate.jpg?v=2"
         alt="A cartoon of the Brandenburg Gate"
         className="w-full rounded-lg border border-ink/15"
       />
