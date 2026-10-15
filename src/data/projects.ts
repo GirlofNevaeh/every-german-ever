@@ -1,8 +1,6 @@
 import type { ProjectCard } from "./types";
 
 const german = "A class may answer in German.";
-const older =
-  "In Berlin and Brandenburg these ages are still for young learners. In the other states it is the start of the next school.";
 
 export const projects: ProjectCard[] = [
   {
@@ -169,7 +167,7 @@ export const projects: ProjectCard[] = [
       "Use only facts from this site.",
     ],
     done: "The writing names both places and stays with the facts.",
-    note: `${german} ${older}`,
+    note: german,
   },
   {
     id: "5-t",
@@ -184,7 +182,7 @@ export const projects: ProjectCard[] = [
       "Then say one way the Basic Law protects people's rights.",
     ],
     done: "The class heard both sentences, and neither added details that are not on this site.",
-    note: `${german} ${older}`,
+    note: german,
   },
   {
     id: "6-i",
@@ -199,7 +197,7 @@ export const projects: ProjectCard[] = [
       "Use the German name and the English name for each place.",
     ],
     done: "Both names appear for each place, and the comparison uses this site.",
-    note: `${german} ${older}`,
+    note: german,
   },
   {
     id: "6-t",
@@ -214,7 +212,7 @@ export const projects: ProjectCard[] = [
       "If credit is shared, say so.",
     ],
     done: "The six cards can hang in the classroom, and the facts match this site.",
-    note: `${german} ${older}`,
+    note: german,
   },
 ];
 

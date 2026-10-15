@@ -19,7 +19,7 @@ function SearchPage() {
     <main className="mx-auto grid max-w-3xl gap-4 px-4 py-6">
       <h1 className="text-3xl text-danube">Search</h1>
       <SearchBox initial={q} />
-      {!q ? <p>Type a name, then press Send.</p> : null}
+      {!q ? <p>Type a whole name, then press Send.</p> : null}
       {q && blocked ? (
         <section className="rounded-lg border border-ink/15 p-4">
           <p>{CRUEL_YEARS_TEXT}</p>

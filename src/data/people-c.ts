@@ -771,7 +771,7 @@ export const peopleC: Person[] = [
     knownFor: "MP3 sound, as part of a Fraunhofer team",
     bio: [
       "Karlheinz Brandenburg was born in Erlangen.",
-      "His MP3 work was a team at Fraunhofer.",
+      "The MP3 work was done by a team at Fraunhofer.",
       "Many people on that team made the sound files small enough to share.",
     ],
     places: ["Erlangen", "Ilmenau"],
@@ -780,7 +780,7 @@ export const peopleC: Person[] = [
     inventions: [
       {
         name: "MP3",
-        shared: "It was a team at Fraunhofer, not one person alone.",
+        shared: "A team at Fraunhofer did this work, not one person alone.",
       },
     ],
   },
@@ -793,7 +793,7 @@ export const peopleC: Person[] = [
     knownFor: "First chancellor of West Germany",
     bio: [
       "Konrad Adenauer was born in Cologne.",
-      "From 1949 he was the first chancellor of the west German government.",
+      "From 1949 he was the first chancellor of the West German government.",
     ],
     places: ["Cologne", "Bonn"],
     roles: ["leader"],
