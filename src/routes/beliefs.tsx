@@ -17,7 +17,7 @@ function BeliefsPage() {
       <p>
         The Lorelei is a story place on the Rhine. A tale says a woman sang from the rock. The rock is real. The singer is a story.{" "}
         <Link to="/places/$slug" params={{ slug: "lorelei" }} className="underline decoration-honey underline-offset-4">
-          See die Lorelei
+          See the Lorelei
         </Link>
         .
       </p>

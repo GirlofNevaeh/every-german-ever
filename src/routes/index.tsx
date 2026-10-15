@@ -16,7 +16,7 @@ function Home() {
         alt="A cartoon of the Brandenburg Gate"
         className="w-full rounded-lg border border-ink/15"
       />
-      <p className="text-lg">{text("People, places, states, and a quiz, for Age 5-12.")}</p>
+      <p className="text-lg">{text("People, places, states, and a quiz for Age 5-12.")}</p>
       <p>{text("Purchase access at Every School Ever.")}</p>
       <a
         href="https://www.everyschoolever.com/pricing?plan="

@@ -71,7 +71,7 @@ const PROMPTS = {
   "Neuschwanstein stands in which state?": "In welchem Bundesland steht Neuschwanstein?",
   "The Brandenburger Tor is in which city?": "In welcher Stadt steht das Brandenburger Tor?",
   "Which parliament meets in the Reichstag building now?": "Welches Parlament tagt jetzt im Reichstagsgebäude?",
-  "Sanssouci palace is in which city?": "In welcher Stadt steht Schloss Sanssouci?",
+  "Sanssouci Palace is in which city?": "In welcher Stadt steht Schloss Sanssouci?",
   "The Wartburg stands above which town?": "Über welcher Stadt steht die Wartburg?",
   "Heidelberg sits on which river?": "An welchem Fluss liegt Heidelberg?",
   "The Lorelei rock is on which river?": "An welchem Fluss liegt der Lorelei-Felsen?",

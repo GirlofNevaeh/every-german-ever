@@ -45,7 +45,7 @@ export const states: StateInfo[] = [
     capitalGerman: "Potsdam",
     land: "Pine forests, lakes, and sandy fields around Berlin.",
     facts: [
-      "Sanssouci palace is in Potsdam.",
+      "Sanssouci Palace is in Potsdam.",
       "Berlin sits inside this land, but Berlin is a different state.",
     ],
   },
@@ -94,7 +94,7 @@ export const states: StateInfo[] = [
     land: "Lakes inland and a long Baltic coast.",
     facts: [
       "There are more than a thousand lakes.",
-      "The coast faces the Baltic Sea, die Ostsee.",
+      "The coast faces the Baltic Sea. In German that sea is die Ostsee.",
     ],
   },
   {

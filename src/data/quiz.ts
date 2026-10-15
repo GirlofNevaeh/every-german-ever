@@ -586,7 +586,7 @@ export const questions: Question[] = [
   },
   {
     "id": "q054",
-    "prompt": "Sanssouci palace is in which city?",
+    "prompt": "Sanssouci Palace is in which city?",
     "choices": [
       "Passau",
       "Potsdam",

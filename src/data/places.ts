@@ -58,7 +58,7 @@ export const places: Place[] = [
     photoId: "reichstag",
     photoAlt: "The Reichstag building in Berlin",
     lines: [
-      "This building in Berlin has a glass dome that visitors can walk in.",
+      "This building in Berlin has a glass dome that visitors can walk inside.",
       "The parliament that meets here now is the Bundestag.",
       "The Basic Law is the set of rules that protects people's rights.",
     ],
@@ -110,7 +110,7 @@ export const places: Place[] = [
   },
   {
     slug: "lorelei",
-    name: "the Lorelei",
+    name: "The Lorelei",
     germanName: "die Lorelei",
     also: ["Loreley", "Lorelei"],
     region: "Rhine, Rheinland-Pfalz",
@@ -119,7 +119,7 @@ export const places: Place[] = [
     photoId: "lorelei",
     photoAlt: "The Lorelei rock above the Rhine",
     lines: [
-      "The Lorelei is a tall rock on the Rhine, der Rhein.",
+      "The Lorelei is a tall rock on the Rhine. In German the river is der Rhein.",
       "A story says a woman sang there and boats came too close.",
       "That tale is a story, not a news report. The rock and the river are real.",
     ],

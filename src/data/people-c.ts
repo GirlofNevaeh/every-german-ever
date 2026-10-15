@@ -157,7 +157,7 @@ export const peopleC: Person[] = [
     knownFor: "Algebra, and a theorem about symmetry",
     bio: [
       "Emmy Noether was born in Erlangen.",
-      "She changed algebra, and she showed how symmetry and saved quantities belong together.",
+      "She changed algebra, and she showed how symmetry belongs with amounts that stay the same.",
       "She left because it was not safe, and she died in the United States.",
     ],
     places: ["Erlangen", "Göttingen"],
