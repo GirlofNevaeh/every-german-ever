@@ -3,6 +3,7 @@ import { useLanguage } from "@/lib/language";
 import { useEffect, useMemo, useState } from "react";
 import { questions } from "@/data/quiz";
 import type { Question } from "@/data/types";
+import { playCheer, playFart, primeQuizSounds } from "@/lib/quiz-sounds";
 
 export const Route = createFileRoute("/quiz")({
   head: () => ({ meta: [{ title: "Quiz · Every German Ever" }] }),
@@ -41,6 +42,18 @@ function QuizPage() {
   const activeTeams = suddenTeams ?? [...scores.keys()];
   const teamNow = activeTeams[turn % activeTeams.length] ?? 0;
   const question = deck[cursor];
+
+  useEffect(() => {
+    const prime = () => {
+      try {
+        primeQuizSounds();
+      } catch {
+        // The quiz continues if the browser will not play sound.
+      }
+    };
+    window.addEventListener("pointerdown", prime, { once: true });
+    return () => window.removeEventListener("pointerdown", prime);
+  }, []);
 
   useEffect(() => {
     if (phase !== "feedback" || !question || picked === null) return;
@@ -209,6 +222,12 @@ function QuizPage() {
                   disabled={phase !== "ask"}
                   onClick={() => {
                     if (phase !== "ask") return;
+                    try {
+                      if (index === question.answer) playCheer();
+                      else playFart();
+                    } catch {
+                      // The answer still counts if the sound fails.
+                    }
                     if (suddenTeams) {
                       const nextPicks = { ...suddenPicks, [teamNow]: index };
                       setSuddenPicks(nextPicks);
