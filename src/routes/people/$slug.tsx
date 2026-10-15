@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CartoonPortrait } from "@/components/cartoon-portrait";
 import { getPerson } from "@/data/people";
+import { useLanguage } from "@/lib/language";
 
 export const Route = createFileRoute("/people/$slug")({
   head: ({ params }) => ({
@@ -12,6 +13,7 @@ export const Route = createFileRoute("/people/$slug")({
 function PersonPage() {
   const { slug } = Route.useParams();
   const person = getPerson(slug);
+  const { text } = useLanguage();
   if (!person) {
     return (
       <main className="mx-auto max-w-3xl px-4 py-6">
@@ -35,11 +37,11 @@ function PersonPage() {
           <h1 className="text-3xl text-danube">{person.name}</h1>
           <p className="text-lg">{person.germanName}</p>
           <p className="font-semibold text-linden">{person.years}</p>
-          <p>{person.knownFor}</p>
+          <p>{text(person.knownFor)}</p>
         </div>
       </div>
       {person.bio.map((line) => (
-        <p key={line}>{line}</p>
+        <p key={line}>{text(line)}</p>
       ))}
       <p>
         <span className="font-semibold">Places: </span>
@@ -51,7 +53,7 @@ function PersonPage() {
           {person.inventions.map((item) => (
             <p key={item.name}>
               <span className="font-semibold">{item.name}. </span>
-              {item.shared ?? ""}
+              {text(item.shared ?? "")}
             </p>
           ))}
         </section>

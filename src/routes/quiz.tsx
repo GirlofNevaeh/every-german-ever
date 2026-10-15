@@ -1,4 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute } from '@tanstack/react-router'
+import { useLanguage } from "@/lib/language";
 import { useEffect, useMemo, useState } from "react";
 import { questions } from "@/data/quiz";
 import type { Question } from "@/data/types";
@@ -21,6 +22,7 @@ function shuffle<T>(list: T[]): T[] {
 }
 
 function QuizPage() {
+  const { text } = useLanguage();
   const [mode, setMode] = useState<Mode>("solo");
   const [length, setLength] = useState(8);
   const [teamCount, setTeamCount] = useState(2);
@@ -194,7 +196,7 @@ function QuizPage() {
           <p className="text-sm">
             Question {Math.min(cursor + 1, deck.length)} of {deck.length}
           </p>
-          <h2 className="text-2xl">{question.prompt}</h2>
+          <h2 className="text-2xl">{text(question.prompt)}</h2>
           <div className="grid gap-2">
             {question.choices.map((choice, index) => {
               const show = phase === "feedback" && picked !== null;
@@ -229,7 +231,7 @@ function QuizPage() {
                         : "border-danube text-danube")
                   }
                 >
-                  {choice}
+                  {text(choice)}
                 </button>
               );
             })}

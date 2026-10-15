@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { PROJECT_STAGES, projects } from "@/data/projects";
+import { useLanguage } from "@/lib/language";
 
 export const Route = createFileRoute("/projects")({
   head: () => ({ meta: [{ title: "Projects · Every German Ever" }] }),
@@ -10,6 +11,7 @@ export const Route = createFileRoute("/projects")({
 function ProjectsPage() {
   const [stage, setStage] = useState<string>("all");
   const [kind, setKind] = useState<"all" | "individual" | "team">("all");
+  const { text } = useLanguage();
   const shown = projects.filter(
     (item) => (stage === "all" || item.stage === stage) && (kind === "all" || item.kind === kind),
   );
@@ -34,21 +36,21 @@ function ProjectsPage() {
             <p className="text-sm font-semibold text-linden">
               {item.stage} · {item.kind === "team" ? "Team" : "Individual"}
             </p>
-            <h2 className="text-xl">{item.title}</h2>
+            <h2 className="text-xl">{text(item.title)}</h2>
             <p>
               <span className="font-semibold">What you need: </span>
-              {item.need}
+              {text(item.need)}
             </p>
             <ol className="list-decimal pl-5">
               {item.steps.map((step) => (
-                <li key={step}>{step}</li>
+                <li key={step}>{text(step)}</li>
               ))}
             </ol>
             <p>
               <span className="font-semibold">You are done when: </span>
-              {item.done}
+              {text(item.done)}
             </p>
-            {item.note ? <p>{item.note}</p> : null}
+            {item.note ? <p>{text(item.note)}</p> : null}
           </li>
         ))}
       </ul>

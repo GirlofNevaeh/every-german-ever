@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { StateMap } from "@/components/germany-maps";
 import { getState } from "@/data/states";
+import { useLanguage } from "@/lib/language";
 
 export const Route = createFileRoute("/states/$slug")({
   head: ({ params }) => ({
@@ -12,6 +13,7 @@ export const Route = createFileRoute("/states/$slug")({
 function StatePage() {
   const { slug } = Route.useParams();
   const state = getState(slug);
+  const { text } = useLanguage();
   if (!state) {
     return (
       <main className="mx-auto max-w-3xl px-4 py-6">
@@ -32,10 +34,10 @@ function StatePage() {
         {state.capitalGerman}
         {state.capitalGerman !== state.capital ? ` · ${state.capital}` : ""}
       </p>
-      <p>{state.land}</p>
+      <p>{text(state.land)}</p>
       <ul className="list-disc pl-5">
         {state.facts.map((fact) => (
-          <li key={fact}>{fact}</li>
+          <li key={fact}>{text(fact)}</li>
         ))}
       </ul>
       {state.slug === "bremen" ? (

@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { SearchBox } from "@/components/search-box";
 import { allInventions, people } from "@/data/people";
 import { PERIOD_LABEL, PERIODS, ROLE_LABEL, ROLES, type Period, type Role } from "@/data/types";
+import { useLanguage } from "@/lib/language";
 
 export const Route = createFileRoute("/people/")({
   head: () => ({ meta: [{ title: "People · Every German Ever" }] }),
@@ -13,6 +14,7 @@ export const Route = createFileRoute("/people/")({
 function PeoplePage() {
   const [role, setRole] = useState<Role | "all">("all");
   const [period, setPeriod] = useState<Period | "all">("all");
+  const { text } = useLanguage();
   const shown = useMemo(
     () =>
       people.filter(
@@ -85,7 +87,7 @@ function PeoplePage() {
             </Link>
             <p className="text-sm">{person.germanName}</p>
             <p className="text-sm text-linden">{person.years}</p>
-            <p className="mt-1">{person.knownFor}</p>
+            <p className="mt-1">{text(person.knownFor)}</p>
           </li>
         ))}
       </ul>
@@ -100,7 +102,7 @@ function PeoplePage() {
                   {item.person}
                 </Link>
               </p>
-              {item.shared ? <p>{item.shared}</p> : null}
+              {item.shared ? <p>{text(item.shared)}</p> : null}
             </li>
           ))}
         </ul>

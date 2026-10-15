@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { MemorialDrawing, PlaceDrawing } from "@/components/drawings";
 import { hasPhoto, Photo } from "@/components/photo";
 import { getPlace } from "@/data/places";
+import { useLanguage } from "@/lib/language";
 
 export const Route = createFileRoute("/places/$slug")({
   head: ({ params }) => ({
@@ -13,6 +14,7 @@ export const Route = createFileRoute("/places/$slug")({
 function PlacePage() {
   const { slug } = Route.useParams();
   const place = getPlace(slug);
+  const { text } = useLanguage();
   if (!place) {
     return (
       <main className="mx-auto max-w-3xl px-4 py-6">
@@ -37,7 +39,7 @@ function PlacePage() {
         <PlaceDrawing label={place.name} />
       )}
       {place.lines.map((line) => (
-        <p key={line}>{line}</p>
+        <p key={line}>{text(line)}</p>
       ))}
     </main>
   );

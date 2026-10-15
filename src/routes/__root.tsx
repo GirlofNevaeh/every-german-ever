@@ -2,6 +2,7 @@ import { createRootRoute, HeadContent, Outlet, Scripts, redirect } from "@tansta
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SiteFrame } from "@/components/site-frame";
+import { LanguageProvider } from "@/lib/language";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "Every German Ever";
@@ -40,9 +41,11 @@ export const Route = createRootRoute({
       <body>
         <PreviewHostBridge />
         <AuthProvider>
-          <SiteFrame>
-            <Outlet />
-          </SiteFrame>
+          <LanguageProvider>
+            <SiteFrame>
+              <Outlet />
+            </SiteFrame>
+          </LanguageProvider>
         </AuthProvider>
         <Scripts />
       </body>
