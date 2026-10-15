@@ -19,7 +19,7 @@ function Home() {
       <p className="text-lg">{text("People, places, states, and a quiz, for Age 5-12.")}</p>
       <p>{text("Purchase access at Every School Ever.")}</p>
       <a
-        href="https://everyschoolever.com"
+        href="https://www.everyschoolever.com/pricing?plan="
         className="inline-flex min-h-11 w-fit items-center rounded-lg bg-honey px-4 font-semibold text-ink no-underline"
       >
         {text("Purchase access")}
