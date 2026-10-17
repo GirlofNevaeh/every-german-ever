@@ -220,6 +220,13 @@ function QuizPage() {
                   key={choice}
                   type="button"
                   disabled={phase !== "ask"}
+                  onPointerDown={() => {
+                    try {
+                      primeQuizSounds();
+                    } catch {
+                      // The answer still counts if the sound fails.
+                    }
+                  }}
                   onClick={() => {
                     if (phase !== "ask") return;
                     try {
